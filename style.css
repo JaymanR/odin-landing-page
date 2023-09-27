@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+
+body {
+    margin: 0;
+    font-family: 'Hero New', arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 0;
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.right-links {
+    margin-left: auto;
+    color: white;
+}
+
+.right-links a {
+    margin: 10px;
+    font-size: small;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-section {
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.section-one {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.s1-one {
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+img {
+    width: 450px;
+    height: 200px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.info {
+    max-width: 100px;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.section-three {
+    background-color: #e6e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-three-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: end;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+.newsletter button {
+    border: 2px solid white;
+}
+
+p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
